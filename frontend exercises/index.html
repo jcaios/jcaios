@@ -1,135 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="assets/css/global.css">
-    <ul class="pagination">
-        <li><a href="page1.html">1</a></li>
-        <li><a href="page2.html">2</a></li>
-        <li><a href="page3.html">3</a></li>
-    
-    </ul>
-    
-    <link rel="stylesheet" href="assets/css/stylesheet.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caio's Portfolio</title>
     
+    <link rel="stylesheet" href="assets/css/stylesheet.css">
+</head>
+
+<body>
+    
+
+    <div class="intro">
+        <h1>Hi, I'm Caio</h1>
+        <p>Web/UI Designer</p>
+        <p>I created this website to showcase some of my recent projects.</p>
+        <p><a href="page1.html">A tale of two cities</a></p>
+        <p><a href="page2.html">Purple Rain</a></p>
+        <p><a href="page3.html">Web Pages with sections</a></p>
+    </div>
+
     <style>
-        /* Reset default margin and padding */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-    
+
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
             color: #333;
+            padding: 20px;
+            margin: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
-        }
-    
-        .intro {
             text-align: center;
-            background: #ffffff;
-            padding: 40px 30px;
-            border-radius: 20px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-            max-width: 600px;
-            position: relative;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #ffffff;
         }
-    
-        .intro:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+
+        .intro {
+            width: 80%; /* Adjust the width as needed */
         }
-    
+
         h1 {
-            font-size: 3em;
+            font-size: 4em;
             color: #4a4a4a;
-            margin-bottom: 10px;
-            font-weight: 600;
-            letter-spacing: 1px;
+            margin-bottom: 20px;
         }
-    
+
         p {
-            font-size: 1.2em;
+            font-size: 1.5em;
             color: #555;
             margin-bottom: 15px;
-            line-height: 1.6;
         }
-    
-        /* Style for the numbers above the text */
-        .numbered-sections {
-            font-size: 1.4em;
-            color: #6a6464;
-            margin-bottom: 20px;
-            letter-spacing: 5px;
-        }
-    
-        /* Stylish hyperlink */
+
         a {
             color: #0091ff;
             text-decoration: none;
             font-weight: bold;
-            background-color: #e0f4ff;
             padding: 10px 20px;
-            border-radius: 30px;
-            transition: background-color 0.3s ease, color 0.3s ease;
         }
-    
+
         a:hover {
-            background-color: #007acc;
-            color: #ffffff;
-            text-decoration: none;
-        }
-    
-        /* Add subtle animation on page load */
-        .intro {
-            opacity: 0;
-            animation: fadeIn 1s ease-in-out forwards;
-        }
-    
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-                transform: scale(0.9);
-            }
-            100% {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-    
-        /* Add responsive typography */
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5em;
-            }
-    
-            p {
-                font-size: 1.1em;
-            }
-            .numbered-sections {
-                font-size: 1.1em;
-            }
+            color: #007acc;
+            text-decoration: underline;
         }
     </style>
-    
-    <body>
-        <div class="intro">
-            <div class="numbered-sections">
-                
-            </div>
-            <h1>Hi, I'm Caio</h1>
-            <p>Web/UI Designer</p>
-            <p>I created this website to showcase some of my recent projects.</p>
-            <p><a href="page1.html">Check out my work here!</a></p>
-        </div>
-    </body>
-    
+</body>
+</html>
